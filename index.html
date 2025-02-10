@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="searchBox">
+            <!--input field to get the city name-->
+            <input type="text" id="weatherInput" placeholder="Enter your city name!" spellcheck="false" autocomplete="off">
+             <!--why spellcheck and autocomplete? To make the input clear.-->
+             <!--spellcheck=false makes sure the browser doesn't check for spellings -->
+              <!-- autocomplete=off; fresh searching -->
+
+            <button id="weatherButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <br>
+
+        <i class="fa-solid fa-cloud-sun"></i>
+        <!--Displaying the weather info-->
+        <div id="weatherOutput"></div>
+    </main>
+    <script src="weather1.js"></script>
+</body>
+</html>

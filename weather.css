@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(236, 236, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    background: rgb(198, 246, 130);
+    padding: 20px;
+    width: 300px;
+}
+
+
+button {
+    padding:10px;
+    background: #9ef245;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#weatherOutput div {
+    margin-top: 10px;
+    text-align: left;
+}
